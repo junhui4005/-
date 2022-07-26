@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: 'KOHIBaeumOTF';
+}
+.boardbox {
+	border-top: 1px solid gray;	
+	padding: 5px;
+}
+.boardinfo{
+	font-size: 12px;
+	color: #999999;
+}
+#myboardlist{
+	border-bottom: 1px solid gray;	
+	max-width: 900px;
+	margin: 0 auto;
+}

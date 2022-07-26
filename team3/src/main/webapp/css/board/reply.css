@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+button {
+	background-color: #6A7BA2;
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+#reply_wrap{
+	width: 50%;
+	margin: 0 auto;
+	 word-break:break-all;
+	
+}
+textarea{
+	resize: none;
+}
+
+.rwrite_wrap{
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+	 word-break:break-all;
+}
+#rcontent, #upcontent, #rrcontent,  #upcontent2 {
+	width: 45vw;
+}
+
+#rwrite , #rrwrite{
+	width: 82px;
+	margin-left: 20px;
+	border-radius: 10px;
+	
+}
+
+
+
+time{
+	float: right;
+	margin-right: 30px;
+}
+.rbox{
+	background-color: white;
+	     border-radius: 10px;
+	border: 2px solid #eeeeee;
+	
+}
+.rheader, .rfooter {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.rmain{
+	width: 100%;
+	  word-break:break-all;
+	      padding-left: 15px;
+    padding-top: 10px;
+}
+.con{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.rwrite_wrap{
+	display: flex;
+	flex-direction: column;
+}
+.rwirte_area,.rwirte_area2{
+	display: flex;
+	margin-top: 15px;
+}
+.rfooter{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	
+}
+.upbutton_area{
+	float: right;
+}
+.btn_area{
+	display: flex;
+}
+.re {
+margin-left: 50px;
+}
+.rwirte_area2{
+	display: flex;
+		margin-left: 50px;
+}
+#wrap{
+	
+}
+
+.likebre{
+	border: none;
+	background-color: white;
+	color: #6A7BA2;
+
+}
+
+.test {
+	margin-right: 15px;
+}
+.test button {
+	width: 60px;
+	    border-radius: 10px;
+}

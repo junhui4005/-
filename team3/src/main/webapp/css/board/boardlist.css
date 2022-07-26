@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothicA1-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+	font-family: 'KOHIBaeumOTF';
+}
+
+#list span{
+	font-family: 'GothicA1-Light';
+	font-weight: bold;
+}
+
+#list{
+	 
+	width: 35vw;
+	border-bottom: 1px solid black;
+	
+	
+	word-break:break-all;
+}
+
+ 
+ 
+ .list span {
+ 	padding: 20px;
+ 	margin-top: 10px;
+ }
+ .list h2 {
+ 	padding: 20px;
+ }
+ 
+ 
+ .board_category{
+ display : flex;
+ 	justify-content: flex-start;
+
+ }
+ .board_category button{
+ 
+   margin-right: 5px;
+   margin-bottom: 15px;
+   font-size: 12px;
+ 
+ }
+
+ 
+ .content_wrap{
+ 	margin: 0 auto;
+ 	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #edf0f5;
+    min-height: 100vh;
+ }
+ 
+ #list{
+ 	background-color: white;
+ 	border: 1px solid #eee;
+ 	border-radius: 10px;
+ 	margin-top: 10px;
+ 	    margin-bottom: 20px;
+ }
+ 
+ 
+ 
+ 
+ .btable{
+ 	display: flex;
+ }
+ .title{
+ width: 15vw}
+ 
+ .bth{
+ 	width: 5vw;
+ }
+ 
+ 
+ #cicon {
+	width: 15px;
+	height: 15px;
+	
+}
+#list span {
+	margin-left: 30px;
+}
+
+
+.search_area{
+	
+	        font-family: "serif";
+    margin-bottom: 5px;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+	    }
+select {
+	
+	height: 30px;
+	text-align: center;
+	
+}
+.form_select {
+	margin-right: 5px;
+	border-radius: 13px;
+	border:none;
+}
+
+.serach_input {
+	
+	height:30px;
+	width: 100%;	
+	margin-right: 5px;
+	border-radius: 13px;
+	border : none;
+	
+	
+	}
+.search_button{
+	width: 80px;
+	height: 30px;
+	background-color: #6A7BA2;
+	color : white;
+	border : none;
+	border-radius: 13px;
+}
+option {
+	padding: 2px;
+}
+
+.board_category{
+	margin-top: 30px;
+}
+.board_category button{
+	color: white;
+	background-color: #6A7BA2;
+	border: none;
+	width: 80px;
+	height: 30px;
+	text-align: cetner;
+	border-radius: 10px;
+}
+.far, .fas{
+ 	color: #6A7BA2;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ }
+
+.bb{
+	height: 230px;
+	background-color: #6a7ba2;
+	color: white;
+}
+.p1{
+	text-align: center;
+}
+.line12{
+	border-right: 1px solid white;
+}
+#list:hover {
+		border: 1px solid #6A7BA2;
+		
+}

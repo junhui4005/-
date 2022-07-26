@@ -1,0 +1,113 @@
+ /*bar*/
+ @font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: 'KOHIBaeumOTF';
+}
+  .barbtn{
+ 	border: 1px solid #bbb;
+ 	background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+	padding: 10px 12px;
+ }
+ 
+ .barbtnbox1{
+ 	margin-left: 150px;
+ }
+ .barbtnbox2{
+ 	margin-left: 20px;
+ }
+ 
+ /*getmessage*/
+ 
+ .tablebox{
+ 		border: 2px solid gray;
+ 		margin: 0 auto;
+	width: 1000px !important;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 20px 40px 10px 40px;
+	 margin-top: 20px !important;
+	 
+ }
+ 
+ .ing{
+ 	width: 100px;
+ }
+ 
+
+ .mcontent{
+    width: 550px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+     display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-height: 1.6em;
+    -webkit-box-orient: vertical;
+    height: 1.6em
+ }
+ 
+  .mcontent1{
+    width: 500px ;
+    white-space: nowrap;;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-height: 1.4em;
+    -webkit-box-orient: vertical;
+    height: 1.4em
+ }
+ .td{
+	height: 20px;
+	cursor: pointer;
+ }
+ 
+ .내용{
+ 	 width: 550px;
+ 	 
+ }
+ .btnpa{
+ 	margin-right: 12px;
+ }
+ 
+ .read{
+ 	height: 20px;
+ 	color: #c3c3c3;
+ 	cursor: pointer;
+ }
+ 
+ .modal-body{
+ 	height: 500px;
+ }
+ .p{
+ 	
+ 	margin-top: 20px;
+ 	border: 2px solid #eeeeee;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	height: 400px;
+ }
+ 
+ .mess{
+ text-align: center;
+	margin-top:50px !important;
+	margin-bottom:20px !important;
+ }
+ 
+ .ctext{
+ 	width: 100%;
+ 	margin-top: 10px;
+ 	border: 2px solid #eeeeee;
+	border-radius: 10px;
+	padding: 0px 20px 10px 20px;
+	height: 400px;
+	resize: none;
+ }

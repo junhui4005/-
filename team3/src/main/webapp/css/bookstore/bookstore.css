@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+*{
+	 font-family: 'KOHIBaeumOTF';
+}
+a{
+	color: black;
+}
+.bviewbox{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.booklist-mainbox{
+	max-width: 900px;
+	margin: 0 auto;
+	
+}
+.bookbox {
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding : 10px 40px;
+	cursor: pointer;
+}
+.bookbox img{
+	max-height: 160px;
+	max-width: 120px;
+}
+.contentbox{
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding : 20px 40px;
+	margin: 20px 0px;
+}
+.ttitle {
+	font-size : 24px;
+	font-weight: bold;
+}
+.table_col1 {
+	width: 100px;
+}
+.content_table_tr {
+	margin-bottom: 10px;
+}
+.tprice {
+    color: #ff5d57;
+    font-size: 22px;
+    font-weight: bold;
+}
+.bookconditon {
+	color: #33b207;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+.contentbox img {
+	margin-top: 15px;
+}
+.tcontent {
+	margin-bottom: 20px;
+}
+.btnbook {
+	background-color: #ff5d57;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	width: 100%
+}
+.addimgbox {
+	width: 30%;
+	max-width: 180px;
+    box-sizing: border-box;
+    border: 1px dashed #d6d6d6;
+    cursor: pointer;
+    position: relative;
+}
+.addimgbox:after {
+	content:"";
+	display: block;
+	padding-bottom: 100%;
+}
+.addimgbox img {
+	position: absolute;
+	width: 33%;
+	margin: 33%;
+}
+
+.list_ttitle{
+	font-size : 20px;
+	font-weight: bold;
+}
+.list_tprice{
+	color: #ff5d57;
+    font-size: 18px;
+    font-weight: bold;
+}
+.bdetailbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.list_tcondition {
+	color: #33b207;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.sellbtn{
+	border: none;
+	border-radius: 0.25rem;
+	color: white;
+	background-color: #1665bc;
+	padding: 5px 10px 0px 10px;
+	font-size: 14px;
+}
+
+
+.imgupdatebtn{
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	color: #6a6a6a;
+	font-size: 14px;
+}
+.bookform h3{
+	margin-top: 30px;
+}
+.bookform input {
+	margin-bottom: 10px;
+}
+.ctext {
+	width: 100%;
+    margin-top: 10px;
+    border: 2px solid #eeeeee;
+  	border-radius: 10px;
+    padding: 0px 20px 10px 20px;
+    height: 400px;
+}
+.book-info {
+	color: #999999;
+	font-size: 14px;
+	font-weight: normal;
+	width: 110px;
+}
+#top{
+	position:fixed;
+	right: 20px;
+	bottom: 40px;
+}
+.fa-circle-arrow-up{
+	color: gray;
+	font-size: 30px; 
+}
+#previewbox{
+	height: 400px;
+}

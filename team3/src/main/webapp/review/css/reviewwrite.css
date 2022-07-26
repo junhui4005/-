@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: 'KOHIBaeumOTF';
+}
+
+.교수명{
+	font-size: 12px;
+}
+
+.이수구분{
+	font-size: 10px;
+	color: #6a7ba2;
+}
+
+img{
+	width: 30px;
+}
+
+#tableviewbox{
+	margin-top: 86px;
+	border: 2px solid #eeeeee;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	height: 500px;
+}
+
+.home1{
+	background-color: #6a7ba2;
+	color: white;
+	border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: 10px 0;
+	padding: 10px 12px;
+	cursor: pointer;
+}
+
+.list_1{
+	border-radius: 5px;
+	margin: 10px;
+	background-color: white;
+	color: black;
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #bbb;
+}
+.list-group > button:hover{
+	border-radius: 5px;
+	background-color: #6a7ba2;
+	color: white;
+	padding: 10px;
+	border: none;
+	text-align: left;
+	border: 1px solid #bbb;
+}
+
+.list-group > button:hover .이수구분{
+	color: white;
+}
+
+
+.별{
+	cursor: pointer;
+}
+
+.up{
+	position: absolute;
+	left: 290px;
+	top: 720px;
+}
+.fa-circle-arrow-up{
+	font-size: 25px;
+	color: #6a7ba2;
+}
+
+.lecturetable{
+	border: none;
+	border-radius: 10px;
+	padding: 0px 20px 10px 20px;
+}
+.search{
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    padding: 10px 12px;
+    margin-top: 20px;
+    width:83%;
+    	margin-bottom: 20px;
+}
+.searchbtn{
+	background-color: #6a7ba2;
+	color: white;
+	border: 1px solid;
+    border-radius: 5px;
+	padding: 10px 12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+.lname{
+	font-size: 20px;
+}
+
+.lcollege{
+	color: gray;
+	font-size: 12px;
+}
+
+.selectbtn{
+	border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: 10px 0;
+	padding: 10px 12px;
+	cursor: pointer;
+}
+
+.textarea{
+	border: 2px solid #eeeeee;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+	width: 100%;
+    height: 6.25em;
+    resize: none;
+}
+
+.이수구분{
+	width: 100px;
+}
+
+
+.submitbtn{
+	width: 100%;
+	border: 1px solid; background-color: #6a7ba2;
+	color: white;
+	  border-radius: 5px;
+    margin: 0 auto;
+	padding: 10px 12px;
+}
+
+.click{
+	cursor: pointer;
+}

@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'KOHIBaeumOTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/KOHIBaeumOTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	font-family: 'KOHIBaeumOTF';
+}
+
+
+.fa-school{
+	font-size: 50px;
+}
+.fa-comment-dots{
+	font-size: 40px;
+}
+.fa-user{
+	font-size: 40px; 
+	margin-top: 10px;
+	margin-right: 200px;
+}
+.count{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #7b2b44;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	font-size: 5px;
+}
+
+.bcontent{
+	 display: inline-block;
+    width: 340px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.iconbox{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("/team3/img/대학교.png");
+	padding: 20px 0px 20px 0px;
+	margin-left: 0 auto;margin-right:0 auto;margin-top: 50px;margin-bottom: 40;
+	background-size: 100%;
+}
+
+.tr{
+	cursor: pointer;
+}
+
+.iconlink{
+	padding: 40px 50px 0px 50px;
+	text-decoration: none; color:#1665bc;
+	height: 300px; 
+	width:250px;
+	background-color: white;
+    background-color: rgba( 255, 255, 255, 0.8 );
+    margin-right: 20px;
+}
+
+li i{
+	font-size: 50px;
+}
+
+
+.iconitem{
+	text-align: center;
+}
+
+.mainheader{
+	margin-top: 30px;
+	height: 50px;
+}
+a{
+	text-decoration: none; color: #1665bc;
+}
+
+.tablelist{
+	margin-top: 50px;
+	margin-left: 0px auto;margin-right: 0px auto;
+}
+
+.h5{
+	margin-top: 40px;
+}
+
+
+.booklist{
+	margin-top: 40PX;
+	border: 1px solid  rgb(128, 128, 128);
+	border-radius: 10px;
+	padding : 30px 30px;
+	margin-left: 0px auto;
+	margin-right: 0px auto;
+	height: 400px;
+}
+
+.book{
+	border: 1px solid rgb(128, 128, 128);
+	border-radius: 10px;
+	width: 200px;
+	height: 266px;
+}
+
+.tablebox1{
+	border: 1px solid rgb(128, 128, 128);
+	border-radius: 10px;
+	padding : 50px 50px;
+	margin-right: 10px;
+}
+.tablebox2{
+	border: 1px solid rgb(128, 128, 128);
+	border-radius: 10px;
+	padding : 50px 50px;
+	margin-left: 10px;
+}
+.dp1{
+	margin-top: 10px;
+}
+.dp2{
+	margin-right: 10px;
+}
+
+.tablefont{
+	font-size: 12px;
+}
+
+.font{
+	font-size: 12px;
+}
+
+.books{
+	margin-right: 20px;
+}
+
+
+.boardimg{
+	width: 20px;
+	color: black;
+}
+
+.bookimg{
+	margin-left: 80px;
+}
+
+
+.footer{
+	height: 230px;
+	background-color: #004795;
+	color: white;
+	margin-top: 100px;
+}
+.p1{
+	text-align: center;
+}
+.line12{
+	border-right: 1px solid white;
+}
